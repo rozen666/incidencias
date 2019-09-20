@@ -1,0 +1,108 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+
+.ajax-layer{
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    z-index: 2000;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    top: 0;
+  }
+
+.scrolluser{
+  height: 300px !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important; 
+}
+  
+  .ajax-layer img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .pointer{ cursor: pointer !important;}
+  .vh-100{ height: 95vh !important; }
+  .h-90{ height: 90% !important; }
+  .fs-1{ font-size: 0.1rem !important; }
+  .fs-2{ font-size: 0.2rem !important; }
+  .fs-3{ font-size: 0.3rem !important; }
+  .fs-4{ font-size: 0.4rem !important; }
+  .fs-5{ font-size: 0.5rem !important; }
+  .fs-6{ font-size: 0.6rem !important; }
+  .fs-7{ font-size: 0.7rem !important; }
+  .fs-8{ font-size: 0.8rem !important; }
+  .fs-9{ font-size: 0.9rem !important; }
+  
+  .w-10{ width: 10% !important; }
+  .w-20{ width: 20% !important; }
+  .w-30{ width: 30% !important; }
+  .w-40{ width: 40% !important; }
+  .w-50{ width: 50% !important; }
+  .w-60{ width: 60% !important; }
+  .w-70{ width: 70% !important; }
+  .w-90{ width: 90% !important; }
+  .w-100{ width: 100% !important; }
+
+  .form-control:focus {
+    border-color: #ccc;
+    outline: 0;
+    -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,.075),0 0 0 rgba(102,175,233,.6);
+    box-shadow: inset 0 0 0 rgba(0,0,0,.075),0 0 0 rgba(102,175,233,.6);
+    }
+
+    .border-bottom-dark {
+      border-bottom: 1px solid #ccc;
+    } 
+    .border-right-dark {
+      border-right: 1px solid #ccc;
+    }
+
+    .sidebar-height {
+      height: 90%;
+    }
+
+    .newFormConstructor {
+      display: none;
+    }
+
+    .update {
+      display:none;
+      margin-top: -1px !important;
+
+    }
+
+    .scroll500 {
+      overflow-x: hidden !important;
+      overflow-y: auto !important;
+      max-height: 500px !important;
+      height: auto !important;
+    }
+
+    .catalog {
+      display: none;
+    }
+
+    .evidence {
+      height: 400px !important;
+      width: 100% !important;
+    }
+
+    .panel {
+      height: 100% !important;
+    }
+
+    @media (max-width: 600px) {
+      .panel {
+        height: auto !important;
+      }
+    }
